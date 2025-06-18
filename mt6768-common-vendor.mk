@@ -21,7 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6768-common/proprietary/system_ext/lib64/libmtk_vt_wrapper.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmtk_vt_wrapper.so \
     vendor/xiaomi/mt6768-common/proprietary/system_ext/lib64/libshowlogo.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libshowlogo.so \
     vendor/xiaomi/mt6768-common/proprietary/system_ext/lib64/libsignal.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsignal.so \
-    vendor/xiaomi/mt6768-common/proprietary/system_ext/lib64/libsink.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsink.so \
+    vendor/xiaomi/mt6768-common/proprietary/system_ext/lib64/libsink-mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsink-mtk.so \
     vendor/xiaomi/mt6768-common/proprietary/system_ext/lib64/libsource.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsource.so \
     vendor/xiaomi/mt6768-common/proprietary/system_ext/lib64/libsysenv_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsysenv_system.so \
     vendor/xiaomi/mt6768-common/proprietary/system_ext/lib64/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libvcodec_cap.so \
