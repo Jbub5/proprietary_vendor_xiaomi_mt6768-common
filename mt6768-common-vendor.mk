@@ -79,7 +79,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6768-common/proprietary/vendor/bin/mmc_ffu_hynix:$(TARGET_COPY_OUT_VENDOR)/bin/mmc_ffu_hynix \
     vendor/xiaomi/mt6768-common/proprietary/vendor/bin/mmc_ffu_micron:$(TARGET_COPY_OUT_VENDOR)/bin/mmc_ffu_micron \
     vendor/xiaomi/mt6768-common/proprietary/vendor/bin/mtk_agpsd:$(TARGET_COPY_OUT_VENDOR)/bin/mtk_agpsd \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/bin/mtk_pkm_service:$(TARGET_COPY_OUT_VENDOR)/bin/mtk_pkm_service \
     vendor/xiaomi/mt6768-common/proprietary/vendor/bin/muxreport:$(TARGET_COPY_OUT_VENDOR)/bin/muxreport \
     vendor/xiaomi/mt6768-common/proprietary/vendor/bin/netdagent:$(TARGET_COPY_OUT_VENDOR)/bin/netdagent \
     vendor/xiaomi/mt6768-common/proprietary/vendor/bin/netdc:$(TARGET_COPY_OUT_VENDOR)/bin/netdc \
@@ -324,7 +323,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/init/lbs_hidl_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/lbs_hidl_service.rc \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/init/microtrust.bp_kmsetkey_ca.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/microtrust.bp_kmsetkey_ca.rc \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/init/mtk_agpsd_p.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtk_agpsd_p.rc \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/init/mtk_pkm_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtk_pkm_service.rc \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/init/mtkrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtkrild.rc \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/init/netdagent.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netdagent.rc \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/init/networksetting.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/networksetting.rc \
@@ -525,7 +523,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib/libnvram_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram_sec.so \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib/libpixelflinger.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpixelflinger.so \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/lib/libpkm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpkm.so \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib/libpq_cust_base.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpq_cust_base.so \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpq_prot.so \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib/librpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/librpc.so \
@@ -819,7 +816,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib64/libnvram_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram_sec.so \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemcrypto.so \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib64/libpixelflinger.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpixelflinger.so \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/lib64/libpkm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpkm.so \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib64/libpq_cust_base.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpq_cust_base.so \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib64/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpq_prot.so \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib64/libratconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libratconfig.so \
