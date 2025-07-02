@@ -435,8 +435,8 @@
       mcc="716"
       supl_version="2"
   />
-
-  <!-- Claro Columbia -->
+<!-- K19A code for HQ-121278 by lukuan at 2021/4/15 start -->
+<!-- Claro Columbia -->
   <supl_profile
       name="Claro_CO"
       addr=""
@@ -487,7 +487,7 @@
       sha_version="0"
       esupl_apn_mode="3"
   />
-
+<!-- K19A code for HQ-121278 by lukuan at 2021/4/15 end -->
   <!-- nlp_profile
 
     name:
@@ -1260,7 +1260,8 @@
       v1="71610"
     />
   </carrier_mapping>
-    <carrier_mapping name="Movistar_Peru">
+<!-- K19A code for HQ-121278 by lukuan at 2021/4/15 start -->
+  <carrier_mapping name="Movistar_Peru">
     <mcc_mnc
       v1="71606"
     />
@@ -1270,6 +1271,7 @@
       v1="732101"
     />
   </carrier_mapping>
+<!-- K19A code for HQ-121278 by lukuan at 2021/4/15 end -->
   <carrier_mapping name="Entel_Peru">
     <mcc_mnc
       v1="71617"
@@ -1279,6 +1281,13 @@
     <mcc_mnc
       v1="46011"
       v2="46003"
+      v3="46000"
+      v4="46001"
+      v5="46002"
+      v6="46005"
+      v7="46006"
+      v8="46007"
+      v9="46020"
     />
   </carrier_mapping>
 </mtk_agps_profiles>
