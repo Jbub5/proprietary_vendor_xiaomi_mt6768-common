@@ -8,7 +8,7 @@
 		</CategoryType>
 		<CategoryType name="Profile">
 			<Category name="Handset" alias="Normal,HAC"/>
-			<Category name="MagiConference" wording="Handsfree"/>
+			<Category name="MagiConference" wording="2-mic NR"/>
 		</CategoryType>
 	</CategoryTypeList>
 	<ParamUnit>

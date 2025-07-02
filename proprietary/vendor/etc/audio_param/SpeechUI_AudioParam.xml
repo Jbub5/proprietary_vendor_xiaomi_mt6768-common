@@ -7,8 +7,7 @@
     <Param path="5_pole_Headset,GSM" param_id="1"/>
     <Param path="5_pole_Headset+ANC,GSM" param_id="1"/>
     <Param path="Handsfree,GSM" param_id="1"/>
-    <Param path="BT_NREC_On_NB,GSM" param_id="2"/>
-    <Param path="BT_NREC_On_WB,GSM" param_id="2"/>
+    <Param path="BT_Earphone,GSM" param_id="2"/>
     <Param path="BT_NREC_Off,GSM" param_id="2"/>
     <Param path="MagiConference,GSM" param_id="0"/>
     <Param path="HAC,GSM" param_id="1"/>
@@ -22,17 +21,13 @@
     <Param path="Tty_VCO_Handsfree,GSM" param_id="2"/>
     <Param path="Handset_SV,GSM" param_id="2"/>
     <Param path="Handsfree_SV,GSM" param_id="2"/>
-    <Param path="Lpbk_Nodelay_Headset_Mic1,GSM" param_id="2"/>
-    <Param path="Lpbk_Nodelay_Headset_Mic2,GSM" param_id="2"/>
-    <Param path="Lpbk_Nodelay_Headset_Mic3,GSM" param_id="2"/>
     <Param path="Normal,CDMA" param_id="0"/>
     <Param path="3_pole_Headset,CDMA" param_id="1"/>
     <Param path="4_pole_Headset,CDMA" param_id="1"/>
     <Param path="5_pole_Headset,CDMA" param_id="1"/>
     <Param path="5_pole_Headset+ANC,CDMA" param_id="1"/>
     <Param path="Handsfree,CDMA" param_id="1"/>
-    <Param path="BT_NREC_On_NB,CDMA" param_id="2"/>
-    <Param path="BT_NREC_On_WB,CDMA" param_id="2"/>
+    <Param path="BT_Earphone,CDMA" param_id="2"/>
     <Param path="BT_NREC_Off,CDMA" param_id="2"/>
     <Param path="MagiConference,CDMA" param_id="0"/>
     <Param path="HAC,CDMA" param_id="1"/>
@@ -46,17 +41,13 @@
     <Param path="Tty_VCO_Handsfree,CDMA" param_id="2"/>
     <Param path="Handset_SV,CDMA" param_id="2"/>
     <Param path="Handsfree_SV,CDMA" param_id="2"/>
-    <Param path="Lpbk_Nodelay_Headset_Mic1,CDMA" param_id="2"/>
-    <Param path="Lpbk_Nodelay_Headset_Mic2,CDMA" param_id="2"/>
-    <Param path="Lpbk_Nodelay_Headset_Mic3,CDMA" param_id="2"/>
     <Param path="Normal,VoLTE" param_id="0"/>
     <Param path="3_pole_Headset,VoLTE" param_id="1"/>
     <Param path="4_pole_Headset,VoLTE" param_id="1"/>
     <Param path="5_pole_Headset,VoLTE" param_id="1"/>
     <Param path="5_pole_Headset+ANC,VoLTE" param_id="1"/>
     <Param path="Handsfree,VoLTE" param_id="1"/>
-    <Param path="BT_NREC_On_NB,VoLTE" param_id="2"/>
-    <Param path="BT_NREC_On_WB,VoLTE" param_id="2"/>
+    <Param path="BT_Earphone,VoLTE" param_id="2"/>
     <Param path="BT_NREC_Off,VoLTE" param_id="2"/>
     <Param path="MagiConference,VoLTE" param_id="0"/>
     <Param path="HAC,VoLTE" param_id="1"/>
@@ -70,9 +61,6 @@
     <Param path="Tty_VCO_Handsfree,VoLTE" param_id="2"/>
     <Param path="Handset_SV,VoLTE" param_id="2"/>
     <Param path="Handsfree_SV,VoLTE" param_id="2"/>
-    <Param path="Lpbk_Nodelay_Headset_Mic1,VoLTE" param_id="2"/>
-    <Param path="Lpbk_Nodelay_Headset_Mic2,VoLTE" param_id="2"/>
-    <Param path="Lpbk_Nodelay_Headset_Mic3,VoLTE" param_id="2"/>
   </ParamTree>
   <ParamUnitPool>
     <ParamUnit param_id="0">
@@ -92,7 +80,6 @@
       <Param name="UL NLP visibility" value="1"/>
       <Param name="UL ES LB visibility" value="1"/>
       <Param name="UL AES LB visibility" value="1"/>
-      <Param name="UL DMNR mode_param visibility" value="1"/>
     </ParamUnit>
     <ParamUnit param_id="1">
       <Param name="DL FIR visibility" value="1"/>

@@ -3,8 +3,8 @@
     <CategoryTypeList>
         <CategoryType name="Network">
             <Category name="GSM" />
-			<Category name="CDMA" />
-			<Category name="VoLTE" />
+            <Category name="CDMA" />
+            <Category name="VoLTE" />
         </CategoryType>
     </CategoryTypeList>
 		<ParamUnit>
