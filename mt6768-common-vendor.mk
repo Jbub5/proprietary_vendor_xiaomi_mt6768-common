@@ -70,7 +70,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6768-common/proprietary/vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.pq@2.2-service \
     vendor/xiaomi/mt6768-common/proprietary/vendor/bin/hw/vendor.microtrust.hardware.soter@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.microtrust.hardware.soter@1.0-service \
     vendor/xiaomi/mt6768-common/proprietary/vendor/bin/hw/vtservice_hidl:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vtservice_hidl \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/bin/lbs_hidl_service:$(TARGET_COPY_OUT_VENDOR)/bin/lbs_hidl_service \
     vendor/xiaomi/mt6768-common/proprietary/vendor/bin/lib3a.ccu.dm:$(TARGET_COPY_OUT_VENDOR)/bin/lib3a.ccu.dm \
     vendor/xiaomi/mt6768-common/proprietary/vendor/bin/lib3a.ccu.pm:$(TARGET_COPY_OUT_VENDOR)/bin/lib3a.ccu.pm \
     vendor/xiaomi/mt6768-common/proprietary/vendor/bin/libalfpc_tuning_20181222.bin:$(TARGET_COPY_OUT_VENDOR)/bin/libalfpc_tuning_20181222.bin \
@@ -320,7 +319,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/init/init.wfca.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wfca.rc \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/init/init.wod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wod.rc \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/init/init_connectivity.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init_connectivity.rc \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/init/lbs_hidl_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/lbs_hidl_service.rc \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/init/microtrust.bp_kmsetkey_ca.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/microtrust.bp_kmsetkey_ca.rc \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/init/mtk_agpsd_p.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtk_agpsd_p.rc \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/init/mtkrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtkrild.rc \
@@ -618,7 +616,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.pq@2.6-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.pq@2.6-impl.so \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/lib64/lbs_hidl_service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lbs_hidl_service-impl.so \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib64/lib3a.ae.core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.ae.core.so \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib64/lib3a.ae.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.ae.so \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib64/lib3a.af.core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.af.core.so \
@@ -842,7 +839,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib64/libvidhance.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvidhance.so \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib64/libwa_ancbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwa_ancbase.so \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib64/libwapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwapi.so \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/lib64/libwifitest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifitest.so \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib64/libwo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwo.so \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib64/libwvkeybox.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvkeybox.so \
@@ -865,7 +861,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib64/vendor.mediatek.hardware.keyinstall@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.keyinstall@1.0.so \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/lib64/vendor.mediatek.hardware.lbs@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.lbs@1.0.so \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib64/vendor.mediatek.hardware.mms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mms@1.0.so \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib64/vendor.mediatek.hardware.mms@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mms@1.1.so \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib64/vendor.mediatek.hardware.mms@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mms@1.2.so \
