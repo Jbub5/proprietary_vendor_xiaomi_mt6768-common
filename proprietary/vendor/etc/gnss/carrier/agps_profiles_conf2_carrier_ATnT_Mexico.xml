@@ -4,7 +4,7 @@
        cur_supl_profile is supported but other supl_profile are ignored.
        auto_profile_enable is not supported.
   -->
-<!--J19/J15S code for HQ-130850 by fenghaitao at 2021/4/23 start-->
+<!--K19A code for HQ-121845 by liuxingyu at 2021/4/7 start-->
   <!--
   <cur_supl_profile name="ATnT_Mexico"
       addr="supl.iusacell.com"
@@ -20,7 +20,7 @@
       tls_version="1"
       sha_version="0"
   />
-<!--J19/J15S code for HQ-130850 by fenghaitao at 2021/4/23 end-->
+<!--K19A code for HQ-121845 by liuxingyu at 2021/4/7 end-->
   <cdma_profile name="CDMA1"
   />
 
