@@ -7,8 +7,8 @@
             <Category name="VoLTE" />
         </CategoryType>
     </CategoryTypeList>
-		<ParamUnit>
+	<ParamUnit>
         <Param name="speech_network_support" type="ushort_array"/>
-		</ParamUnit>
+	</ParamUnit>
 
 </ParamUnitDesc>
