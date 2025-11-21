@@ -331,6 +331,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/init/volte_rcs_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/volte_rcs_ua.rc \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/init/init.volte_stack.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.volte_stack.rc \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/init/android.hardware.audio.service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio.service.mediatek.rc \
+    vendor/xiaomi/mt6768-common/proprietary/vendor/bin/hw/android.hardware.audio.service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio.service.mediatek. \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.1-service.rc \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/init/atcid.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atcid.rc \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib64/android.hardware.graphics.composer@2.1-resources.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.composer@2.1-resources.so \
@@ -587,6 +588,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib/libmtknetutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtknetutils.so \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib/libmtkproperty.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkproperty.so \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib/libmtkrillog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkrillog.so \
+    vendor/xiaomi/mt6768-common/proprietary/vendor/lib/hw/audio.primary.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.mt6768.so \
+    vendor/xiaomi/mt6768-common/proprietary/vendor/lib64/hw/audio.primary.mt6768.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.mt6768.so \
+    vendor/xiaomi/mt6768-common/proprietary/vendor/lib/libaudiofoundation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiofoundation.so \
+    vendor/xiaomi/mt6768-common/proprietary/vendor/lib64/libaudiofoundation.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiofoundation.so \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib/libmtkshifter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkshifter_vendor.so \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib/libmtksysutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtksysutils.so \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib/libneuropilot_hal_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libneuropilot_hal_utils.so \
@@ -983,7 +988,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6768-common/proprietary/vendor/thh/ta/c1882f2d885e4e13a8c8e2622461b2fa.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/c1882f2d885e4e13a8c8e2622461b2fa.ta \
     vendor/xiaomi/mt6768-common/proprietary/vendor/thh/ta/d78d338b1ac349e09f65f4efe179739d.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/d78d338b1ac349e09f65f4efe179739d.ta \
     vendor/xiaomi/mt6768-common/proprietary/vendor/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/thh/ta/e5140b3376fa4c63ab18062caab2fb5c.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/e5140b3376fa4c63ab18062caab2fb5c.ta
+    vendor/xiaomi/mt6768-common/proprietary/vendor/thh/ta/e5140b3376fa4c63ab18062caab2fb5c.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/e5140b3376fa4c63ab18062caab2fb5c.ta \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/AudioParamOptions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/AudioParamOptions_vext.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions_vext.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/HpImpedance_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/HpImpedance_AudioParam.xml \
@@ -1012,7 +1017,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/VoWMicSetting_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWMicSetting_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/VoWMicSetting_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWMicSetting_ParamUnitDesc.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/VoWVoiceCommand_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWVoiceCommand_AudioParam.xml \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/VoWVoiceCommand_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWVoiceCommand_ParamUnitDesc.xml \
+    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/VoWVoiceCommand_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWVoiceCommand_ParamUnitDesc.xml
 
 PRODUCT_PACKAGES += \
     libwifi-hal-mtk \
